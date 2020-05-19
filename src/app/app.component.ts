@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {COURSES} from '../db-data';
+import { CARDS } from '../db-data';
 
 @Component({
   selector: 'app-root',
@@ -8,6 +8,7 @@ import {COURSES} from '../db-data';
 })
 export class AppComponent {
 
-
+  card1 = CARDS[0];
+  card2 = CARDS[1];
 
 }
