@@ -17,4 +17,7 @@ export class CourseCardComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  detalleVisto() {
+    console.log("Clic en botón carta");
+  }
 }
